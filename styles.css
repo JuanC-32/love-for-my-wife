@@ -12,12 +12,25 @@ html, body {
 
 /* ===== BODY ===== */
 body {
-  background: linear-gradient(135deg, #ff758c, #ff7eb3);
   font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1rem;
+
+  background: 
+    linear-gradient(
+      rgba(255, 255, 255, 0.75),
+      rgba(255, 255, 255, 0.75)
+    ),
+    url("sunflowers.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
 }
 
 /* ===== CARD ===== */
